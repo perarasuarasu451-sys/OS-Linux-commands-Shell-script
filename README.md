@@ -510,24 +510,31 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="649" height="504" alt="image" src="https://github.com/user-attachments/assets/72622252-24e8-4f97-aabc-bba051650cab" />
 
  
 ls file1
 ## OUTPUT
+<img width="292" height="75" alt="image" src="https://github.com/user-attachments/assets/d18dbbb5-4e8d-4f2c-90b1-69ed404974de" />
 
 echo $?
 ## OUTPUT 
+
+<img width="251" height="77" alt="image" src="https://github.com/user-attachments/assets/bc421874-4e2d-488e-bbbd-9dea93fd82e8" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+<img width="313" height="75" alt="image" src="https://github.com/user-attachments/assets/e4f2f577-9e9f-4182-9968-b652ef978982" />
  
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="256" height="77" alt="image" src="https://github.com/user-attachments/assets/8f0eafd1-018e-4385-99cc-2764d43625b6" />
 
  
 # mis-using string comparisons
@@ -558,14 +565,15 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
+##OUTPUT:
+<img width="361" height="279" alt="image" src="https://github.com/user-attachments/assets/098ec815-9c37-4463-8f90-b68c6e90b347" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="644" height="100" alt="image" src="https://github.com/user-attachments/assets/fb814e55-9e6b-41aa-a5eb-edd4ab95e2c4" />
 
 
 # check file ownership
@@ -593,6 +601,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="428" height="74" alt="image" src="https://github.com/user-attachments/assets/7dacae2e-e597-4601-8b2c-cb8d5c1a759c" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -640,6 +649,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="394" height="74" alt="image" src="https://github.com/user-attachments/assets/a1c0f2f3-b751-45b0-a9a6-63b2e4be91e9" />
 
 
 # using numeric test comparisons
@@ -683,6 +693,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="474" height="383" alt="image" src="https://github.com/user-attachments/assets/f08774ab-b493-4e0a-bb86-05dc64aaf728" />
 
 # check if a file
 cat > ifnested.sh 
