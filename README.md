@@ -1177,4 +1177,4 @@ fi
 
 
 # RESULT:
-The Commands are executed successfully.........................
+The Commands are executed successfully.
